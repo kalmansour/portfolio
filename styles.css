@@ -1,0 +1,161 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  color: rgb(44, 43, 43);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: gold;
+}
+
+.profilepic {
+  width: 200px;
+  height: 200px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gold;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+  background-color: rgb(243, 243, 243);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.navbar-nav {
+  color: rgb(247, 252, 0);
+}
+
+.nav-item {
+  color: rgb(247, 252, 0);
+}
+
+.underlinegoldNav {
+  color: gold;
+}
+
+.underlinegoldNav:hover {
+  color: rgb(243, 243, 243);
+}
+
+.underlinegoldNav:active {
+  color: gold;
+  background-color: white;
+  text-decoration: underline;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: gold;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+container {
+  padding-left: 0px;
+}
+
+p {
+  color: black;
+  /* margin-left: 0px; */
+}
+
+h3 {
+  color: gold;
+  text-decoration-line: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: larger;
+}
+
+.list-header {
+  color: gold;
+  background-color: rgb(243, 243, 243);
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+ul {
+  padding-left: 0px;
+  margin-bottom: 8px;
+}
+
+li {
+  font-size: medium;
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.hobby-list {
+  background-color: #00f7ff;
+}
+
+.music-list {
+  background-color: rgb(252, 232, 236);
+}
+
+.podcast-list {
+  background-color: rgb(255, 252, 60);
+}
+
+.book-list {
+  background-color: rgb(186, 194, 231);
+}
+
+.project-list {
+  background-color: orangered;
+}
+
+.underlinegreen {
+  text-decoration: underline;
+}
+
+.fav-list {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.projectWhite {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  /* margin-top: 20px; */
+  color: gold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
